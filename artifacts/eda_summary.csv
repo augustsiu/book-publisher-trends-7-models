@@ -1,0 +1,11 @@
+statistic,value
+start_month,2015-01-01
+end_month,2024-12-01
+months,120
+missing_target,0
+zero_months,0
+mean,416.99
+std,63.3
+min,247.0
+max,557.0
+lag_12_autocorrelation,0.962

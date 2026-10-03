@@ -1,0 +1,24 @@
+{
+  "run_at_utc": "2026-10-03T16:16:03.467063+00:00",
+  "rows": 120,
+  "horizon": 12,
+  "backtest_horizon": 6,
+  "folds": 3,
+  "models": [
+    "seasonal_naive",
+    "arima",
+    "sarima",
+    "ets",
+    "prophet",
+    "xgboost",
+    "lstm"
+  ],
+  "champion": "prophet",
+  "parameters": {
+    "xgboost": {
+      "max_depth": 5,
+      "learning_rate": 0.08,
+      "n_estimators": 400
+    }
+  }
+}
