@@ -8,8 +8,8 @@ import streamlit as st
 from book_trends.features import make_features
 from book_trends.validation import expanding_splits
 
-st.set_page_config(page_title="Publishing Trends Forecast", page_icon="📚", layout="wide")
-st.title("📚 Book Publishing Trends Forecast")
+st.set_page_config(page_title="Book Publisher Trends (7 Models)", page_icon="📚", layout="wide")
+st.title("📚 Book Publisher Trends (7 Models)")
 st.caption("Seven forecasting approaches evaluated with chronological rolling-origin validation")
 
 artifact_dir = Path("artifacts")

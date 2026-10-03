@@ -1,4 +1,4 @@
-# Book Publishing Trends Forecasting
+# Book Publisher Trends (7 Models)
 
 An end-to-end, three-day data science portfolio project that forecasts monthly
 book publication volume. It includes ingestion, validation, EDA-ready data,
@@ -162,7 +162,7 @@ instead (the image installs only the app dependencies):
 
 ```bash
 make docker            # runs the pipeline, then docker build
-docker run -p 8501:8501 book-trends
+docker run -p 8501:8501 book-publisher-trends-7-models
 ```
 
 ## Honest limitations

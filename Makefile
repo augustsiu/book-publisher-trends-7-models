@@ -12,7 +12,7 @@ run:
 app:
 	streamlit run app.py
 docker: run
-	docker build -t book-trends .
+	docker build -t book-publisher-trends-7-models .
 clean:
 	rm -rf .pytest_cache .ruff_cache src/*.egg-info
 	find . -name __pycache__ -not -path "./.venv*" -prune -exec rm -rf {} +
